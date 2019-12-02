@@ -1,0 +1,15 @@
+{
+	"short_name": "Burguer Builder",
+	"name": "Burguer Builder",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "64x64",
+			"type": "image/x-icon"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#FF7700",
+	"background_color": "#ffffff"
+}
