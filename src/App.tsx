@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import Layout from './components/Layout';
+import BurguerBuilder from './containers/BurguerBuilder';
 
-const App: React.FC = () => {
-	return (
-		<div className="App">
-			<h1>Burguer Builder</h1>
-		</div>
-	);
+class App extends React.Component {
+	render() {
+		return (
+			<Layout>
+				<BurguerBuilder/>
+			</Layout>
+		);	
+	}
 }
 
 export default App;
