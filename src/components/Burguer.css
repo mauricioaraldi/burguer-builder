@@ -1,0 +1,33 @@
+#burguer {
+	height: 250px;
+	margin: 16px auto;
+	width: 200px;
+}
+
+#burguer > div {
+	border: 1px solid #000000;
+	border-radius: 8px;
+	height: 20px;
+	text-align: center;
+}
+
+#burguer > .bread {
+	background-color: #F5F5DC;
+}
+
+#burguer > .cheese {
+	background-color: #FFA600;
+}
+
+#burguer > .meat {
+	background-color: #AA3C3B;
+}
+
+#burguer > .salad {
+	background-color: #339D3A;
+}
+
+#burguer > .meat,
+#burguer > .salad {
+	color: #FFFFFF;
+}

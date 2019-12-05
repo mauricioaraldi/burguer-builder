@@ -7,7 +7,15 @@ interface Props {
 
 interface State {};
 
+/**
+ * Class that render the main layout
+ *
+ * @class
+ */
 class Layout extends React.Component<Props, State> {
+	/**
+	 * Render
+	 */
 	render() {
 		return (
 			<React.Fragment>

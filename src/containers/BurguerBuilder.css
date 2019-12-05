@@ -1,0 +1,33 @@
+#price {
+	font-size: 24px;
+	text-align: center;
+}
+
+#controller {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 8px;
+}
+
+#controller > div {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+}
+
+#controller > div > span,
+#controller > div > button {
+	display: inline-block;
+	margin: 8px 0;
+}
+
+#controller > div > span:first-child {
+	width: 100px;
+}
+
+#order {
+	display: block;
+	font-size: 18px;
+	margin: 8px auto;
+}
