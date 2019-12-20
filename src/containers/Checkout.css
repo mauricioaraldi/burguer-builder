@@ -1,0 +1,7 @@
+#checkout {
+	text-align: center;
+}
+
+#checkout > span {
+	display: block;
+}
