@@ -22,7 +22,7 @@ class Checkout extends React.Component<Props, State> {
 	 * Render
 	 */
 	render() {
-		const { burguer, setBurguer } = this.context,
+		const { burguer } = this.context,
 			{ history } = this.props;
 
 		return (
@@ -34,9 +34,7 @@ class Checkout extends React.Component<Props, State> {
 
 					<button
 						onClick={() => {
-							alert('Shipping your burguer!');
-							setBurguer([]);
-							history.push('/');
+							history.push('/contact');
 						}}
 					>
 						Yes

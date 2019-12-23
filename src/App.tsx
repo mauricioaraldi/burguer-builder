@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './components/Layout';
 import BurguerBuilder from './containers/BurguerBuilder';
 import Checkout from './containers/Checkout';
+import Contact from './containers/Contact';
 import { Route, Switch } from 'react-router-dom';
 import { BurguerContextProvider } from './context/BurguerContext';
 
@@ -44,6 +45,7 @@ class App extends React.Component<Props, State> {
 			>
 				<Layout>
 					<Switch>
+						<Route path="/contact" component={Contact}/>
 						<Route path="/checkout" component={Checkout}/>
 						<Route path="/" component={BurguerBuilder}/>
 					</Switch>
